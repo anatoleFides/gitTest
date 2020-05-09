@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|PT+Sans+Narrow|Pacifico&subset=cyrillic');
+
+@font-face {
+    font-family: 'inkognito';
+    src: url('../fonts/inkognito/inkognito-020-webfont.eot');
+    src: url('../fonts/inkognito/inkognito-020-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/inkognito/inkognito-020-webfont.woff2') format('woff2'),
+         url('../fonts/inkognito/inkognito-020-webfont.woff') format('woff'),
+         url('../fonts/inkognito/inkognito-020-webfont.ttf') format('truetype'),
+         url('../fonts/inkognito/inkognito-020-webfont.svg#kobzar_ksregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+div{
+	font-size: 0;
+	vertical-align: top;
+}
+p{
+	font-size: 25px;
+	line-height: 25px;
+	padding: 8px;
+}
+span{
+	font-weight: 800
+}
+h1{
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 100px;
+	color: brown;
+	font-family: 'Pacifico', cursive;
+}
+h2{
+	font-weight: 800;
+	font-size: 25px;
+	font-family: 'Pacifico', cursive;
+	line-height: 50px;
+	text-align: center;
+}
+a{
+	font-weight: 800;
+}
+img{
+	border: 4px solid red;
+}
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	background: aquamarine;
+	border:3px solid blue;
+	padding: 20px;
+	text-align: center;
+}
+.first1{
+	background: rgb(255,255,0);
+	border: 4px dashed rgb(128, 0, 128);
+}
+.blood_insult2{
+	background: rgb(65, 105, 225);
+	border: 4px solid rgb(255,105,180)
+}
+.barefoot_team3{
+	background: rgb(186,85,211);
+	border: 4px solid rgb(255,215,0)
+}
+.beer4{
+	background: rgb(240,230,140);
+	border: 4px solid rgb(138,43,226)
+}
+.world1966championship5{
+	background: rgb(255, 192, 203);
+	border: 4px solid rgb(30,144,255)
+}
+.pele6{
+	color: rgb(0, 128, 0);
+	border: 4px solid rgb(138,43,226)
+}
+.adidas7{
+	background: rgb(128, 128, 128);
+	border: 4px solid rgb(0,0,255)
+}
+.handGod8{
+	background: rgb(0, 128, 128);
+	border: 4px solid rgb(255,255,0)
+}
+.quick_goal9{
+	background: rgb(220,20,60);
+	border: 4px solid rgb(100,149,237)
+}
+.zidane10{
+	color: rgb(0, 0, 255);
+	border: 4px dashed rgb(138,43,226)
+}
+.qatar2022_11{
+	background: rgb(106, 90, 205);
+	border: 4px solid rgb(0, 255, 0)
+}
+.records{
+	background: rgb(255, 127, 80);
+	border: 6px dotted rgb(75,0,130);
+	font-family: 'Pacifico', cursive;
+	overflow: visible;
+}
+#h2_records{
+	color: green;
+	line-height: 60px;
+	text-align: center;
+	font-size: 45px
+}
+.records_p{
+	text-align: left
+}
+#by{
+	color: blue;
+	font-size: 30px
+}
+.indent_left{
+	margin: 7px 0 7px 100px
+}
+.indent_right{
+	margin: 7px 100px 7px 0
+}
+.div_styl{
+	text-align: justify;
+	font-family: 'inkognito';
+}
+#a{
+	text-align: center;
+}
+.p_back{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: crimson;
+}
+.a_back{
+	font-size: 15px;
+	color: blue;
+}
+.a_fixed{
+	font-size: 20px;
+	color: green;
+	font-family: 'Pacifico', cursive;
+}
+
+/*Макеты*/
+
+.inline{
+	display: inline-block;
+}
+.float{
+	float: left;
+}
+.table{
+	display: table-cell;
+}
+
+/*Color*/
+.c_red{
+	background: red;
+}
+.c_blue{
+	background: blue;
+}
+.c_green{
+	background: green;
+}
+.c_yellow{
+	background: yellow;
+}
+.c_grey{
+	background: grey;
+}
+.c_pink{
+	background: pink;
+}
+.c_brown{
+	background: brown;
+}
+.c_black{
+	background: black;
+}
+.c_white{
+	background: white;
+}
+
+/*Width; min-height; height*/
+
+.w800{
+	width: 800px;
+}
+.w400{
+	width: 400px;
+}
+.w200{
+	width: 200px;
+}
+.w100{
+	width: 100px;
+}
+.m_h300{
+	min-height: 300px;
+}
+.m_h200{
+	min-height: 200px;
+}
+.m_h150{
+	min-height: 150px;
+}
+.m_h100{
+	min-height: 100px;
+}
+.m_h75{
+	min-height: 75px;
+}
+.height150{
+	height: 150px;
+}
+.h100{
+	height: 100px;
+}
+.h75{
+	height: 75px;
+}
+
+/*menu*/
+
+ul{
+	text-align: center;
+	/*font-size: 0;*/
+}
+ul li{
+	font-size: 25px;
+	display: inline-block;
+	background: orange;
+	margin: 0 10px;
+}
+ul li:hover{
+	background: yellow;
+}
+ul li a{
+	color: blue;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+ul li:hover a{
+	color: green;
+}
+
+/*fixed*/
+.fixed{
+	width: 230px;
+	min-height: 400px;
+	top: 50%;
+	left: 0;
+	margin-top: -200px;
+	background: lightgrey;
+	border: 4px solid grey;
+	position: fixed;
+	z-index: 5;
+}
+.img{
+	width: 758px;
+	position: relative;
+	margin: 0 auto;
+}
+.img_vinners{
+	width: 558px;
+	position: relative;
+	margin: 0 auto;
+}
+.p_opacity{
+	display: inline-block;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    margin-top: -25px;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: olive;
+    display: none;
+    box-sizing: border-box;
+   
+}
+.img:hover .p_opacity{
+	display: block;
+}
+.img_vinners:hover .p_opacity{
+	display: block;
+}
